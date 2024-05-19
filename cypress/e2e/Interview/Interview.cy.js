@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe("Onafriq Assignment to ", () => {
+describe("Automate signin, adding to cart and checkout", () => {
   beforeEach(() => {
     cy.visit("https://www.automationexercise.com/");
     cy.fixture("example.json").as("data");
@@ -56,7 +56,7 @@ describe("Onafriq Assignment to ", () => {
     });
   });
 
-  it("Add items to cart", () => {
+  it("Add items to cart and checkout", () => {
     cy.get(
       ":nth-child(1) > .panel-heading > .panel-title > a > .badge > .fa"
     ).click();
