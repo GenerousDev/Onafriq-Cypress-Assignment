@@ -1,6 +1,6 @@
 ## Getting Started
 
-This guide details how to set up the development environment for this React project.
+This guide details how to set up the development environment for this Cypress project.
 
 ### Prerequisites
 
